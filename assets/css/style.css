@@ -1,0 +1,270 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.navbar {
+    background: #0000b3;
+    width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.img-principal {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/7a0f365b-c7c7-4db3-b452-ae0126a003e0.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-principal-wrap {
+    text-transform: uppercase; /* esto es para poner toda la letra en mayuscula */
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-principal {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text-principal-yo-soy {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.text-principal-magdalena {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.line-1 {
+    width: 100%;
+    border: 2px solid #fff;
+
+}
+
+.description-personal {
+    display: none;
+}
+
+.my-experience {
+    margin-top: 34px;
+}
+
+.my-experience-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.line-2 {
+    width: 20%;
+    border: 2px solid #000;
+}
+
+.my-experience-icons {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0000b3;
+}
+
+.fa-apple-alt {
+    font-size: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconos-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.iconos-2 {
+    margin-left: 0;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-slack {
+    font-size: 120px;
+}
+
+.iconos-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.iconos-date {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #000;
+}
+
+.my-jobs {
+    background-color: #0000b3;
+    padding-top: 53px;
+    padding-bottom: 107px;
+    margin-top: 88px;
+}
+
+.my-jobs-title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-jobs-title {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.my-jobs-cards-1,
+.my-jobs-cards-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card.col-md-3{
+    padding: 0;
+}
+
+.card-jobs {
+    margin-bottom: 43px;
+}
+
+.card-title-my-jobs {
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.line-3 {
+    width: 10%;
+    border: 1px solid #FFF;
+    color: #fff;
+}
+
+.contact-title-wrap {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.line-4 {
+    border: 2px solid #000;
+    width: 10%;
+}
+
+.contact-description {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.form-group,
+.btn-primary {
+    margin: 16px 0 0;
+    width: 100%;
+}
+
+.btn-primary {
+    width: 20%;
+}
+
+.footer {
+    background: #0000b3;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-icons {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-twitter,
+.fa-facebook {
+    margin: 0 16px;
+}

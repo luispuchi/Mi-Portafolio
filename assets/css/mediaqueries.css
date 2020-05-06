@@ -1,0 +1,122 @@
+@media (min-width: 768px) {
+    .row {
+        margin: 0;
+    }
+    
+    .img-principal {
+        width: 100%;
+        background-position-x: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .text-principal-yo-soy {
+        font-size: 72px;
+    }
+    
+    .text-principal-magdalena {
+        font-size: 72px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        justify-content: center;
+    }
+
+    .description-personal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description-persona-title{
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 100px;
+    }
+
+    .line-2 {
+        width: 100px;
+        border: 1.5px solid #000;
+    }
+
+    .paragraph-description {
+        margin-top: 30px;
+    }
+
+    .paragraph-1,
+    .paragraph-2 {
+        line-height: 30px;
+    }
+
+    .my-experience-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 72px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .line-2 {
+        display: flex;
+    }
+
+    .my-experience-icons {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #0000b3;
+    }
+
+    .iconos-1 {
+        margin-top: 0;
+    }
+
+    .iconos-2 {
+        margin-left: 120px;
+        margin-top: 0; 
+    }
+
+    .my-jobs-cards-1,
+    .my-jobs-cards-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 53px;
+    }
+
+    .card {
+        margin: 0 8px;
+        padding: 0;
+    }
+
+    .contact {
+        padding: 80px;
+    }
+
+    .contact-description {
+        font-size: 18px;
+    }
+
+    .contact-title-wrap {
+        font-size: 72px;
+    }
+
+    .form-group {
+        width: 50%;
+    }
+
+    .footer-info-wrap {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
