@@ -249,6 +249,10 @@ body {
     align-items: center;
 }
 
+.footer-title-wrap{
+    margin-bottom: 16px;
+}
+
 .footer-title {
     color: #FFF;
     font-size: 40px;
@@ -260,6 +264,12 @@ body {
 .footer-icons {
     color: #ffffff;
     font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.display-3{
+    font-family: 'Oswald', sans-serif;
 }
 
 .fa-github,
